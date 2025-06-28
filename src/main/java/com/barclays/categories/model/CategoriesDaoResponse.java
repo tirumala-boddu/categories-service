@@ -3,8 +3,6 @@ package com.barclays.categories.model;
 import java.util.List;
 
 import com.barclays.categories.exception.CategoriesRequestInvalidException;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,10 +13,11 @@ import lombok.Setter;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonInclude(value = Include.NON_NULL)
-public class CategoriesResponse {
-
-	private StatusBlock status;
-	private List<Categories> categories;
-
+public class CategoriesDaoResponse {
+	
+	private String dbrespCode;
+	private String dbrespMsg;
+	private List<CategoriesDao> categoriesDao;
+	
+	
 }

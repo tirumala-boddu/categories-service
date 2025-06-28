@@ -1,10 +1,6 @@
 package com.barclays.categories.model;
 
-import java.util.List;
-
 import com.barclays.categories.exception.CategoriesRequestInvalidException;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,10 +11,11 @@ import lombok.Setter;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonInclude(value = Include.NON_NULL)
-public class CategoriesResponse {
+public class CategoriesDaoRequest {
 
-	private StatusBlock status;
-	private List<Categories> categories;
+	private String cardNum;
+	private String clientId;
+	private String channelId;
 
+	
 }
