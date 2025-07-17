@@ -48,7 +48,7 @@ public class CategoriesController {
 			@RequestHeader(value = "request_id", required = false) String requestId,
 			@RequestHeader(value = "message_timestamp", required = false) String message_ts) {
 
-		// get the request from the consumer
+		// get the request from the client
 		CategoriesRequest categoriesRequest = new CategoriesRequest();
 		categoriesRequest.setCardNum(cardNo);
 		categoriesRequest.setClientId(client_id);

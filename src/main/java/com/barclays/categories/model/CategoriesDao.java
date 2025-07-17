@@ -15,4 +15,5 @@ public class CategoriesDao {
 	private String status;
 	private String expDate;
 	private String desc;
+	private String cardNum;
 }
