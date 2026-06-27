@@ -8,5 +8,8 @@ public class CategoriesController {
     //added comment
     //added 2nd commit
 
+    public static void main(String[] args) {
+        System.out.println("from main");
+    }
 
 }
