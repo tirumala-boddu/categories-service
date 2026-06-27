@@ -9,7 +9,7 @@ public class CategoriesController {
     //added 2nd commit
 
     public static void main(String[] args) {
-        System.out.println("from feature1");
+        System.out.println("from mainnnnnnnn");
     }
 
 }
