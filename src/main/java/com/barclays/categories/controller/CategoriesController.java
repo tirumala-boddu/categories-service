@@ -9,7 +9,7 @@ public class CategoriesController {
     //added 2nd commit
     //added for PR Testing
     //add for Squash
-
+    //added
     public static void main(String[] args) {
         System.out.println("from mainnnnnnnn");
     }
