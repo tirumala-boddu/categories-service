@@ -11,6 +11,7 @@ public class CategoriesController {
     //add for Squash
     //added
     //added
+    //added
     public static void main(String[] args) {
         System.out.println("from mainnnnnnnn");
     }
